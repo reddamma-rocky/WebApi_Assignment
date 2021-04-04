@@ -92,7 +92,7 @@ namespace WebApi_Assignment.Controllers
             Product product = _productList.Where(x => x.ProductId == id).FirstOrDefault();
             if (product == null)
             {
-                return Request.CreateErrorResponse(HttpStatusCode.NotFound, "STudent Not found");
+                return Request.CreateErrorResponse(HttpStatusCode.NotFound, "Product Not found");
 
             }
             else

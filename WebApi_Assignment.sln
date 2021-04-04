@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi_Assignment", "WebApi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console_Client", "Console_Client\Console_Client.csproj", "{95019BB4-7682-4341-B432-94E4CAF35FE6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mvcclient", "mvcclient\mvcclient.csproj", "{0D391E49-B4E5-4740-A4D4-A2CE4ED413B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{95019BB4-7682-4341-B432-94E4CAF35FE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95019BB4-7682-4341-B432-94E4CAF35FE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95019BB4-7682-4341-B432-94E4CAF35FE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D391E49-B4E5-4740-A4D4-A2CE4ED413B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D391E49-B4E5-4740-A4D4-A2CE4ED413B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D391E49-B4E5-4740-A4D4-A2CE4ED413B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D391E49-B4E5-4740-A4D4-A2CE4ED413B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
